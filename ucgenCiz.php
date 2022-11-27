@@ -39,6 +39,18 @@ function ucgen2($sayi){
   }
   echo   "<br>"; 
 }
+echo   "<hr>";
+function f($sayi)
+{
+    $sayi2 = 2;
+    $total = 1;
+    for ($i = 1; $i <= $sayi; $sayi--) {
+        $total *= $sayi;
+    }
+    return $total;
+}
+
+echo f(3) * f(2);
 } 
 
 echo "<h2>For - While İle</h2>";
