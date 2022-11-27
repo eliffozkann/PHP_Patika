@@ -26,20 +26,20 @@ footer {
 <hr>
 <h1>DEĞİŞKENLER</h1>
 <?=
-$isim = "Şahin ERSEVER"
+$isim = "Şahin ERSEVER";
 echo "Benim adım $isim";
 ?>
 <hr>
 <h1>SABİTLER</h1>
 <?=
-define("SABIT_ADI", "TUTULACAK_DEGER")
+define("SABIT_ADI", "TUTULACAK_DEGER");
 echo SABIT_ADI;
 ?>
 <hr>
 
 <h1>Veri Türleri</h1>
 <?=
-$a = "true"
+$a = "true";
 $b = 2.3;
 $b = -2;
 $c = "Seni kendime sakladım";
