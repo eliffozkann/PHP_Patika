@@ -1,5 +1,5 @@
 <?php
-include 'fonksiyon/helper.php';
+include './fonksiyon/helper.php';
 
     session_start(); 
 ?>
