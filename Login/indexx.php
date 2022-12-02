@@ -33,8 +33,8 @@ include 'fonksiyon/helper.php';
             Profilim
         </div>
         <div class="card-body">
-            <h5 class="card-title text-warning">Şahin ERSEVER</h5>
-            <h6 class="card-subtitle mb-2 text-muted">sahin@stebilisim.com</h6>
+            <h5 class="card-title text-warning"> <?= session('kullanici_adi') ?> </h5>
+            <h6 class="card-subtitle mb-2 text-muted"><?= session('eposta') ?></h6>
             <form action="">
                 <textarea class="form-control bg-dark text-white" name="" id="" cols="30" rows="10">Merhaba, ben Şahin ERSEVER. 10 Ocak 1993 yılında dünyaya geldim, İstanbul Beylikdüzünde yaşıyorum.</textarea>
                 <button class="btn btn-sm btn-primary" type="submit">Kaydet</button>
